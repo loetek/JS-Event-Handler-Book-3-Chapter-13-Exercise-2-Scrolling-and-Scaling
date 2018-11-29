@@ -7,8 +7,8 @@ const output = '';
 window.addEventListener("scroll", function (event) {
 
     let posY = window.scrollY;
-    audrey.style.width = posY;
-    console.log(audrey);
+    audrey.style.width = window.scrollY;
+    console.log(posY);
    
 
     
